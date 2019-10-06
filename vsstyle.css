@@ -115,10 +115,45 @@ body{
 
 .section{
 	padding: 5em auto;
-
-
-
-
-.gallery{
-	background-image: url();
 }
+
+.photo{
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+	/*padding: 1rem;*/
+	margin: .5rem 0;
+	border: 2px solid #d5d5d5;
+	border-radius: 53%;
+}
+
+
+.case .row{
+	padding: 0.1rem 0.8rem;
+	
+}
+
+.case{
+	background-color: rgba(0,0,0,.5);
+	border-radius:2rem 5rem; 
+	padding-top: 2em;
+}
+
+
+.gallery-heading{
+	margin-bottom: 1em;
+	color: #d5d5d5;
+}
+
+footer{
+	background-color: #101015;
+	padding-top: 2em;
+	margin-top: 2em;
+	padding-bottom: 1em;
+}
+
+footer h5,
+footer p{
+	color: #d5d5d5;
+}
+

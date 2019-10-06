@@ -1,12 +1,172 @@
-body{
-    background-color:#202020;
+ /*Font Family*/
+/* {
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
+*/
+
+
+
+
+body{
+    background-color:#202020 !important;
+    overflow-x: hidden;
+   
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	background-color:rgba(0,0,0,.45);
+}
+
+.carousel-item{
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	z-index: 5 !important;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 38%;
+}
+
+.carousel-caption h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 45px;
+}
+.carousel-caption p{
+	font-family: 'Poppins',sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+}
+
+.logo-caption{
+	position: absolute;
+	right: 15%;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.nav-caption{
+	top:23%;
+	position: absolute;
+	right: 15%;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.logo-caption .nav-brand img{
+	height: 3.3rem;
+	position: relative;
+}
+
 .navbar{
 	background-color: rgba(0,0,0,0.0);
 }
 
+.navlink,
+.nav-item a{
+	color: #fff;
+	margin-top: 9px;
+}
 
-.body-image{
-	background-image: url('./img/');
-	background-position: 
+.navlink i{
+	margin-top: 5px;
+}
+
+
+
+.textarea{
+	padding-left: 4rem;
+}
+.textarea p{
+
+	padding-top: 2.7rem;
+	font-family: 'Rubik', sans-serif ;
+	font-weight: 200; 
+	font-size:1rem;
+	letter-spacing: .5px; ;
+}
+
+.heading{
+	margin-bottom: 2em;
+}
+
+
+
+.section{
+	padding: 5em auto;
+}
+
+.photo{
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+	/*padding: 1rem;*/
+	margin: .5rem 0;
+	border: 2px solid #d5d5d5;
+	border-radius: 53%;
+}
+
+@media screen and (max-width: 450px){
+	.photo{
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+	/*padding: 1rem;*/
+	margin: .5rem 0;
+	border: 2px solid #d5d5d5;
+	border-radius: 53%;
+}
+
+}
+
+
+
+.case .row{
+	padding: 0.1rem 0.8rem;
+	
+}
+
+.case{
+	background-color: rgba(0,0,0,.5);
+	border-radius:2rem 5rem; 
+	padding-top: 2em;
+}
+
+
+.gallery-heading{
+	margin-bottom: 1em;
+	color: #d5d5d5;
+}
+
+footer{
+	background-color: #101015;
+	padding-top: 2em;
+	margin-top: 2em;
+	padding-bottom: 1em;
+}
+
+footer h5,
+footer p{
+	color: #d5d5d5;
 }
